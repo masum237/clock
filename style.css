@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(68deg, rgba(132, 41, 185, 1) 17%, rgba(75, 67, 201, 1) 50%, rgba(19, 215, 200, 1) 90%);
+}
+.clock {
+  width: 550px;
+  height: 150px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clock div {
+  position: relative;
+  background-color: #ffffff;
+  height: 100%;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  color: #202020;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  letter-spacing: 3px;
+}
+.clock span {
+  font-weight: bolder;
+  font-size: 60px;
+  color: #ffffff;
+}
